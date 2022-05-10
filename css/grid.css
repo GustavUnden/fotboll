@@ -29,6 +29,19 @@ header{
   grid-template-rows: repeat(auto-fit, minmax(1fr));
 }
 
+.footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.kontakt{
+  grid-column: 2/3;
+}
+
+.navigera{
+  grid-column: 3/4;
+}
+
 #zlatan{
   grid-column:1/2;
 }
@@ -84,6 +97,18 @@ header{
   .container {display: grid;
   grid-template-columns: 1fr;}
   .slideshow-container{
+    grid-row: 2/3;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .kontakt{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .navigera{
+    grid-column: 1/2;
     grid-row: 2/3;
   }
 }

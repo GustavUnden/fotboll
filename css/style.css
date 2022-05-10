@@ -30,13 +30,11 @@ p{
 
 h3{
   color: white;
-  padding: 2rem;
-  margin: 0;
+  padding: 1rem;
 }
 
 a{
   color: white;
-  padding-left: 2rem;
 }
 
 .bilder{
@@ -52,6 +50,7 @@ a{
 .container > .intro{
   background-color: rgba(0, 0, 0, 0.26)
 }
+
 
 /*Styling för lag.html*/
 .container2, .container3{
@@ -124,6 +123,7 @@ ul {
 
 li {
   float: left;
+  color: white;
 }
 
 li a, .dropbtn {
@@ -250,4 +250,16 @@ li.dropdown {
   width: 100%;
   z-index: 3;
   padding: 0;
+  text-align: center;
+}
+
+.footer > a{
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.footer > .navigera > a{
+  display: block;
+  margin: 1rem;¨
+  text-align: center;
 }
