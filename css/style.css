@@ -253,5 +253,5 @@ li.dropdown {
 }
 
 .footer > ul{
-  list-style-type: disc;
+  display: block;
 }
