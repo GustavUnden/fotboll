@@ -251,8 +251,3 @@ li.dropdown {
   z-index: 3;
   padding: 0;
 }
-
-.footer > li{
-  float: none;
-  color: white;
-}
