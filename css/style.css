@@ -250,4 +250,5 @@ li.dropdown {
   position: sticky;
   width: 100%;
   z-index: 3;
+  padding: 0;
 }
