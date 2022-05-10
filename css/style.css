@@ -253,5 +253,5 @@ li.dropdown {
 }
 
 .footer > li{
-  display: block;
+  float: none;
 }
