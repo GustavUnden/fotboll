@@ -68,7 +68,6 @@ header{
 }
 
 
-
 @media only screen and (max-width: 750px){
   .container2 {display: grid;
   grid-template-columns: 1fr 1fr;}
