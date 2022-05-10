@@ -1,0 +1,252 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(16, 30, 79);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+  background-color: rgb(24, 110, 224);
+  margin-bottom: 1rem;
+  display: block;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+h1, h2{
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+p{
+  color: white;
+  margin: 1rem;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.bilder{
+  width: 100%;
+}
+
+/*Styling för index.html*/
+.container{
+  padding: 1rem;
+  padding-top: 8rem;
+}
+
+.container > .intro{
+  background-color: rgba(0, 0, 0, 0.26)
+}
+
+/*Styling för lag.html*/
+.container2, .container3{
+  padding: 3rem;
+  padding-top: 8rem;
+}
+
+.container2 > div:hover{
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+
+.container2 > div > a > img{
+  width: 100%;
+}
+
+.container2 > div > p{
+  border-top: solid;
+  border-color: rgb(9, 146, 182);
+  border-width: 0.2rem;
+}
+
+.container2 > div{
+  border: solid;
+  border-color: rgb(9, 146, 182);
+  border-width: 0.2rem;
+}
+
+.center{
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+
+#real{
+  width: 77%;
+}
+
+#milan{
+  width: 68%;
+}
+
+/*Styling för spelare.html*/
+#zlatan, #lustig{
+  width: 100%;
+}
+
+.zlatantext{
+  background-color: rgba(0, 0, 0, 0.26);
+  margin: 0;
+  padding: 2rem;
+}
+
+.lustigtext{
+  background-color: rgba(0, 0, 0, 0.26);
+  margin: 0;
+  padding: 2rem;
+}
+
+/*Styling för menu*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(24, 110, 200);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 1px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*styling för bildspel*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Gömmer bilderna*/
+.mySlides {
+  display: none;
+}
+
+/*knapparna som byter bild*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* positionerar "next" knappen till höger */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* hover effekt för knapparna */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* bildtexterna */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* nummer texterna */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Gör att bilderna fadear */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Footer*/
+
+.footer{
+  background-color: rgb(24, 110, 224);
+  position: sticky;
+  width: 100%;
+  z-index: 3;
+}
+
+h3{
+  color: white;
+  padding: 2rem;
+  margin: 0;
+}
+
+a{
+  color: white;
+  padding-left: 2rem;
+}
