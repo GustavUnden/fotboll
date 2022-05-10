@@ -60,7 +60,10 @@ header{
   .container2 {display: grid;
   grid-template-columns: 1fr 1fr;}
   .container3 {display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  }
+  .zlatantext{
+    grid-row: 2/3;
   }
 }
 
