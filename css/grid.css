@@ -19,7 +19,7 @@ header{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(auto-fit, minmax(1fr));
-  grid-gap: 3rem;
+  grid-gap: 1rem;
 }
 
 .container3{
@@ -70,9 +70,16 @@ header{
 
 @media only screen and (max-width: 750px){
   .container2 {display: grid;
-  grid-template-columns: 1fr 1fr;}
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  padding-top: 8rem;
+  grid-gap: 1rem;
+  }
   .container3 {display: grid;
   grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+  padding: 1.5rem;
+  padding-top: 8rem;
   }
   .zlatantext{
     grid-row: 2/3;
@@ -87,15 +94,14 @@ header{
     grid-row: 4/5;
     padding: 0;
   }
-  .container3{
-    padding: 2rem;
-    padding-top: 8rem;
-  }
 }
 
 @media only screen and (max-width: 490px){
   .container2 {display: grid;
-  grid-template-columns: 1fr;}
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  padding-top: 8rem;}
+
 }
 
 @media only screen and (max-width: 900px){
