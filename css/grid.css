@@ -106,7 +106,12 @@ header{
 
 @media only screen and (max-width: 900px){
   .container {display: grid;
-  grid-template-columns: 1fr;}
+  grid-template-columns: 1fr;
+  }
+  .container2{
+    padding: 1rem;
+    padding-top: 8rem;
+  }
   .slideshow-container{
     grid-row: 2/3;
   }
