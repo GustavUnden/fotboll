@@ -1,12 +1,14 @@
+//Javascript för bildspelet i index.html
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// Nästa/föregående bild
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// Kontroller för bilderna
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }

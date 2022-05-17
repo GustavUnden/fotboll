@@ -1,8 +1,8 @@
 header{
-  grid-column: 1/-1;
   z-index: 2;
 }
 
+/*container för index.html*/
 .container{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -15,6 +15,7 @@ header{
   grid-row: 1/2;
 }
 
+/*container för lag.html*/
 .container2{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -22,6 +23,7 @@ header{
   grid-gap: 1rem;
 }
 
+/*container för spelare.html*/
 .container3{
   display: grid;
   grid-row-gap: 3rem;
@@ -29,6 +31,7 @@ header{
   grid-template-rows: repeat(auto-fit, minmax(1fr));
 }
 
+/*grid för footern för att kunna placera kontaktuppgifter och navigera*/
 .footer{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -61,13 +64,14 @@ header{
   grid-row: 1/2;
 }
 
+/*Placerar bildspelet*/
 .slideshow-container{
   grid-column: 1/6;
   grid-row: 1/2;
   z-index: 1;
 }
 
-
+/*media query som bland annat gör att antalet kolumner blir 2st istället för 3st på lagsidan då sidan blir mindre än 750px*/
 @media only screen and (max-width: 750px){
   .container2 {display: grid;
   grid-template-columns: 1fr 1fr;
@@ -96,6 +100,7 @@ header{
   }
 }
 
+/*Media query som gör att antalet kolumner blir 1st istället för 2st på lagsidan då sidan blir mindre än 490px*/
 @media only screen and (max-width: 490px){
   .container2 {display: grid;
   grid-template-columns: 1fr;
@@ -104,6 +109,7 @@ header{
 
 }
 
+/*Media query som förändrar utseendet för index.html då sidan blir mindre än 900px*/
 @media only screen and (max-width: 900px){
   .container {display: grid;
   grid-template-columns: 1fr;

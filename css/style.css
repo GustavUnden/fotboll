@@ -47,7 +47,7 @@ a{
   padding-top: 8rem;
 }
 
-.container > .intro{
+.intro{
   background-color: rgba(0, 0, 0, 0.26);
 }
 
@@ -90,7 +90,7 @@ a{
   background-color: rgba(0,0,0,0.8);
 }
 
-/* bildtexterna */
+/* styling för bildtexterna */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -100,7 +100,7 @@ a{
   text-align: center;
 }
 
-/* nummer texterna */
+/* stylear nummer texterna */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -126,6 +126,7 @@ a{
   padding-top: 8rem;
 }
 
+/*När man hovrar över länkarna (rutorna) så ljusas de upp*/
 .container2 > div:hover{
   background-color: rgba(0, 0, 0, 0.12);
 }
@@ -135,12 +136,14 @@ a{
   width: 100%;
 }
 
+
 .container2 > div > p{
   border-top: solid;
   border-color: rgb(9, 146, 182);
   border-width: 0.2rem;
 }
 
+/*Styling för lag rutorna, bakgrundsfärg samt borders*/
 .container2 > div{
   border: solid;
   border-color: rgb(9, 146, 182);
@@ -169,13 +172,7 @@ a{
   width: 100%;
 }
 
-.zlatantext{
-  background-color: rgba(0, 0, 0, 0.26);
-  margin: 0;
-  padding: 2rem;
-}
-
-.lustigtext{
+.zlatantext, .lustigtext{
   background-color: rgba(0, 0, 0, 0.26);
   margin: 0;
   padding: 2rem;
@@ -238,7 +235,7 @@ li.dropdown {
 
 
 
-/*Footer*/
+/*Styling footer*/
 
 .footer{
   background-color: rgb(16, 30, 79);
